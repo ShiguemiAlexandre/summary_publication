@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "franco-project"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Ito <shiguemialexandre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.3.2"
+streamlit = "^1.48.1"
+google-generativeai = "^0.8.5"
+dotenv = "^0.9.9"
+openai = "^1.107.2"
+firebase-admin = "^7.1.0"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
