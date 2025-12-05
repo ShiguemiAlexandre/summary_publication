@@ -12,10 +12,11 @@ O projeto executa coleta diária, processamento inteligente com IA e envio autom
 - **Google Cloud Run**
 - **Cloud Scheduler**
 - **Cloud Tasks**
-- **Firestore / Storage**
+- **Firestore**
 - **GitHub Actions**
 - **Docker**
 - **Gemini API**
+- **OpenIA**
 - **Pandas**
 
 ---
@@ -27,6 +28,6 @@ O projeto executa coleta diária, processamento inteligente com IA e envio autom
    - Coleta das publicações (Astrea)
    - Sumarização com Gemini (ou OpenIA)
    - Criação do payload final
-3. **Email Job** dispara o envio automático em excel.
+3. **Email Job** dispara o envio automático com excel.
 
 ---
